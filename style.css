@@ -1,0 +1,120 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background:linear-gradient(135deg, #0c0c0c, #1a1a2e, #16213e);
+}
+.hero {
+  background: url('assets/lofi.gif') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+nav{
+    margin-bottom: 1px;
+    background-color: gray;
+}
+.row{
+  padding: 5px;
+  border: 2em;
+}
+.footer{
+  padding: 10px;
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.card-container{
+  height: 100vh;
+}
+.word{
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+.col-md-4{
+  margin-top: 10px;
+  box-shadow: inset;
+}
+.container2{
+  display: flex;
+}
+h5{
+  text-align: center;
+  color: black;
+}
+.nav-item:hover::after{
+  width: 100%;
+}
+#nav-list:hover .nav-item{
+  opacity: 0.3;
+}
+#nav-list .nav-item:hover{
+  opacity: 1;
+}
+.comp{
+  height: 250px;
+  width: 250px;
+}
+.roblox{
+  height: 200px;
+  object-fit: cover;
+}
+.text{
+  text-align: center;
+  color: red;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.service{
+  color:white;
+  padding: 0.5rem;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.about-header{
+  color: white;
+  margin-bottom:150px ;
+  padding: 100px;
+  padding-right: 0px;
+}
+.description{
+  color: white;
+  text-align: left;
+  font-size: 1rem;
+  padding: 100px;
+  margin-bottom: 150px;
+}
+.d-text{
+  font-size: 1.5rem;
+}
+.a-text{
+  font-size: 8rem;
+  font-style: times new roman;
+}
+.b-text{
+  font-size: 2rem;
+}
+label{
+  color: white;
+}
+h2{
+  color: white;
+}
